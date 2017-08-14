@@ -33,9 +33,9 @@ nocol='\033[0m'         # Default
 # Exports
 export ARCH=arm
 export SUBARCH=arm
-export KBUILD_BUILD_USER="VipulJha"
-export KBUILD_BUILD_HOST="TechFlue"
-export CROSS_COMPILE=/home/vipul/arm-eabi-6.0/bin/arm-eabi-
+export KBUILD_BUILD_USER="LordArcadius"
+export KBUILD_BUILD_HOST="DroidBox"
+export CROSS_COMPILE=/home/lordarcadius/arm-eabi-6.0/bin/arm-eabi-
 
 # Compilation Scripts
 compile_kernel ()
@@ -56,7 +56,7 @@ fi
 # Finalizing Scripts
 case $1 in
 clean)
-make ARCH=arm -j2 clean mrproper
+make ARCH=arm -j4 clean mrproper
 rm -rf include/linux/autoconf.h
 ;;
 *)
