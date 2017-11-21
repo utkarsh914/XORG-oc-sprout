@@ -35,7 +35,7 @@ export ARCH=arm
 export SUBARCH=arm
 export KBUILD_BUILD_USER="LordArcadius"
 export KBUILD_BUILD_HOST="DroidBox"
-export CROSS_COMPILE=/home/lordarcadius/arm-eabi-6.0/bin/arm-eabi-
+export CROSS_COMPILE=/home/lordarcadius/arm-linaro-linux-androideabi/bin/arm-linaro-linux-androideabi-
 
 # Compilation Scripts
 compile_kernel ()
